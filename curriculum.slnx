@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/솔루션 항목/">
+    <File Path="rev1ew.txt" />
+  </Folder>
+  <Project Path="curriculum project/curriculum project.vcxproj" />
+  <Project Path="curriculum/curriculum.vcxproj" />
+</Solution>
