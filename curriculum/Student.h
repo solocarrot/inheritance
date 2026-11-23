@@ -8,8 +8,14 @@ class Student
 private:
 	string name;
 	string key;
-	char phoneNum[11];
+	string phoneNum;
 	string subject;
 
 public:
+	Student();
+	Student(const string& theName, const string& theKey, const string& subject, const string& phoneNum);
+	string getName() const;
+	string getKey() const;
+	string getSubject() const;
+	string getPhoneNum() const;
 };

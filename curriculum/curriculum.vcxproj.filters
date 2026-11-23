@@ -18,15 +18,24 @@
     <ClCompile Include="IngeritanceMainEx.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="LifeLong.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Student.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="LifeLong.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="text.txt">
-      <Filter>리소스 파일</Filter>
+      <Filter>소스 파일</Filter>
     </Text>
   </ItemGroup>
 </Project>
