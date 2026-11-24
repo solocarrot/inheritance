@@ -145,6 +145,7 @@
     <ClCompile Include="Student.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Gifted.h" />
     <ClInclude Include="LifeLong.h" />
     <ClInclude Include="Student.h" />
   </ItemGroup>
