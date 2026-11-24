@@ -3,6 +3,7 @@
 class LifeLong : public Student
 {
 private:
+	string key;
 	char fee[6];
 
 public:
