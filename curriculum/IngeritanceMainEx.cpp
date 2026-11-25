@@ -1,9 +1,11 @@
 #include"Student.h"
 #include <fstream>
 #include<assert.h>
+#include "MyArrayList.h"
 
 int main(int argc, char* argv[])
 {
+	MyArrayList myArr = MyArrayList();
 	//if (argc < 2)
 	//{
 	//	cout << "file is not right";
@@ -20,7 +22,7 @@ int main(int argc, char* argv[])
 	string line;
 	while (getline(instream, line))
 	{
-		cout << line << endl;
+		myArr.input(line);
 	}
 	instream.close();
 }

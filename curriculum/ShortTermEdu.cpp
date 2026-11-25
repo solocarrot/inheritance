@@ -1,8 +1,8 @@
 #include "ShortTermEdu.h"
 
-int ShrotTermEdu::nextNum = 1;
+int ShortTermEdu::nextNum = 1;
 
-void ShrotTermEdu::makeKey()
+void ShortTermEdu::makeKey()
 {
 	//키를직접만들때 static int를 char로바꾼다음에 string의 끝에 하나씩더해주기
 	char charNum[5];
@@ -26,3 +26,11 @@ void ShrotTermEdu::makeKey()
 	}
 	nextNum++;
 }
+
+ShortTermEdu::ShortTermEdu()
+	:key("noKey")
+{
+	Student();
+}
+
+ShortTermEdu::ShortTermEdu(const string& , const string& , const string& , const string& , const string&)

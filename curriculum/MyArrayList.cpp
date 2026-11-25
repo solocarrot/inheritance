@@ -56,6 +56,14 @@ void MyArrayList::input(const string& line)
 	if (arr[0] == "Gifted")
 	{
 		Student* std = new Gifted(arr[1], arr[2], arr[3], arr[4], arr[5], arr[6], arr[7]);
-
+	}
+	if (arr[0] == "ShortTermEdu")
+	{
+		Student* std = new ShrotTermEdu(arr[1], arr[2], arr[3], arr[4], arr[5], arr[6], arr[7], arr[8]);
 	}
 }
+
+
+
+
+//내일은 1. main실행시켜서 myarraylist에 맞는 객체로들어 갔는지확인 2. delete 랑 insert구현
